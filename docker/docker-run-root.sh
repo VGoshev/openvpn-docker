@@ -1,8 +1,11 @@
 #!/bin/sh
 set -x
 
+[ -f /etc/openvpn/openvpn.conf ] || cp /etc/openvpn.conf /etc/openvpn/openvpn.conf
+
 [ -d /dev/net ] || mkdir /dev/net
 [ -c /dev/net/tun ] || mknod /dev/net/tun c 10 200
+
 
 [ -z "$VPN_SUBNET" ] && VPN_SUBNET="10.0.0.0/16"
 

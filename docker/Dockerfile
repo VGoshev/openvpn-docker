@@ -6,6 +6,7 @@ RUN apk --no-cache add openvpn && \
 	echo Done!
 
 
+COPY openvpn.conf /etc
 COPY docker-run-root.sh /bin/docker-run-root
 
 VOLUME /etc/openvpn
