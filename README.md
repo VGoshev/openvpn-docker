@@ -3,7 +3,7 @@ Docker image for [OpenVPN](https://openvpn.net/) server with possibility to acce
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`latest`](https://github.com/SunAngel/openvpn-docker/blob/master/docker/Dockerfile) - Latest avaliable version.
+* [`latest`](https://github.com/VGoshev/openvpn-docker/blob/master/docker/Dockerfile) - Latest avaliable version.
 
 ## Quickstart
 
@@ -55,4 +55,4 @@ $IPT -A OUTPUT -d $VPN_SUBNET -o !tun0 -j DROP
 
 ## License
 
-This Dockerfile and scripts are released under [MIT License](https://github.com/SunAngel/openvpn-docker/blob/master/LICENSE).
+This Dockerfile and scripts are released under [MIT License](https://github.com/VGoshev/openvpn-docker/blob/master/LICENSE).
