@@ -1,5 +1,5 @@
 # OpenVPN Server Docker image
-Docker image for [OpenVPN](https://openvpn.net/) server with possibility to access to outer world from vpn. This image is based on Alpine Linux Docker image.
+Docker image for [OpenVPN](https://openvpn.net/) server with possibility to access to server network from vpn. This image is based on [Alpine Linux](https://hub.docker.com/_/alpine/) Docker image.
 
 ## Supported tags and respective `Dockerfile` links
 
