@@ -3,7 +3,7 @@ Docker image for [OpenVPN](https://openvpn.net/) server with possibility to acce
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`latest`](https://github.com/VGoshev/openvpn-docker/blob/master/docker/Dockerfile) - Latest avaliable version.
+* [`latest`](https://github.com/VGoshev/openvpn-docker/blob/master/docker/Dockerfile) - Latest available version.
 
 ## Quickstart
 
