@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
 MAINTAINER Vladimir Goshev <sunx@sunx.name>
 
 RUN apk --no-cache add openvpn && \
