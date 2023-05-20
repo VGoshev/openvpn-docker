@@ -1,7 +1,7 @@
-FROM alpine:3.13
+FROM alpine:3.18
 MAINTAINER Vladimir Goshev <sunx@sunx.name>
 
-RUN apk --no-cache add openvpn && \
+RUN apk --no-cache add openvpn iptables && \
 	\
 	echo Done!
 
